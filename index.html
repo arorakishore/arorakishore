@@ -1,10 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccrualEdge - Professional Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px 0;
+        }
+        header h1 {
+            display: inline;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            float: right;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        #hero {
+            background: url('https://via.placeholder.com/1500x500');
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .btn {
+            background: #f04;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        section {
+            padding: 50px 0;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Free Website!</h1>
-    <p>This is a simple, ad-free webpage.</p>
+    <header>
+        <div class="container">
+            <h1>AccrualEdge</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="hero">
+        <div class="container">
+            <h2>Your Trusted Finance & Compliance Partner</h2>
+            <p>We help businesses stay compliant and grow efficiently.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </section>
+    
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>AccrualEdge provides top-tier financial, bookkeeping, and compliance solutions to businesses worldwide.</p>
+    </section>
+    
+    <section id="services" class="container">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Bookkeeping & Accounting</li>
+            <li>Tax Compliance & Advisory</li>
+            <li>Startup Financial Consulting</li>
+            <li>Regulatory Compliance Services</li>
+        </ul>
+    </section>
+    
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>Email: contact@accrualedge.in</p>
+        <p>Phone: +91 98765 43210</p>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AccrualEdge. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
